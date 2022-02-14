@@ -1,5 +1,7 @@
 /*
 Ser autenticavel significa ter o método autenticar
+
+ducky type
 */
 
 export class SistemaAutenticacao{
@@ -14,4 +16,4 @@ export class SistemaAutenticacao{
     return "autenticar" in autenticavel && 
      autenticavel.autenticar instanceof Function
   }
-}  
+}   
